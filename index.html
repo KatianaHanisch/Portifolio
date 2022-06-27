@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Lib Text Css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="imgs/R.png" type="image/x-icon">
+    <!-- icons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portifólio | Katiana Hanisch</title>
+</head>
+<body>
+    <div>
+      <header>
+        <nav class="navbar navbar-expand-lg bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#home"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#about">Sobre Mim</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#skills">Habilidades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#projetos">Projetos</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="container-fluid">
+        <!-- Primeira Divisão -->
+          <div class="container00" id="home">
+            <div class="container titlePadding" data-aos="fade-right" data-aos-duration="1500"> 
+              <p class="h5">Olá sou a</p>
+              <p class="h1">Katiana</p>
+              <div class="container text-center">
+                <img src="imgs/arrowDown.gif" alt="arrowDown" class="arrowDown">
+              </div>
+            </div>
+            <div class="container socialmedia">
+              <a href="https://github.com/KatianaHanisch" target="_blank">Github</a>
+              <a href="https://br.linkedin.com/in/katiana-hanisch-542698235?trk=profile-badge" target="_blank">Linkendin</a>
+            </div>
+          </div>
+    </div>
+        <!-- Segunda Divisão -->
+        <section>
+          <div class="about_section container" id="about">
+            <h1 class="about_title">Sobre mim</h1>
+              <div class="row">
+                <div class="about_img col-md-4 text-center align-self-center order-md-1 order-2">
+                  <img src="imgs/perfil.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="about col-md-6 align-self-center mb-4 order-md-2 order-1" data-aos="zoom-in-right" data-aos-duration="2000">
+                  <h2 class="about_subtitle d-flex align-self-center justify-content-center">Sou a Katiana</h2>
+                  <p class="about_text">Tenho 19 anos, sempre gostei muito da área de tecnologia, então decidi fazer faculdade relacionado a esse assunto. Foi a partir desse interesse que conheci o curso de Análise e Desenvolvimento de Sistemas no qual estou cursando o 1º Semestre.</p>
+                </div>
+              </div>
+          </div>
+        </section>   
+        <!-- Terceira divisão -->
+        <section class="skills section" id="skills">
+            <div class="skills__container">          
+              <div>
+                <h2 class="skills__subtitle"  data-aos="zoom-in-right" data-aos-duration="1000">Habilidades</h2>
+                <p class="skills__text" data-aos="zoom-in-right" data-aos-duration="1000">Atualmente ainda não tenho muita habilidade em desenvolvimento front-end, mas estou sempre em busca de melhorar e aprender mais.</p>
+                <div class="skills__data" data-aos="zoom-in-right" data-aos-duration="1500">
+                  <div class="skills__names">
+                    <i class='bx bxl-html5 skills__icon'></i>
+                    <span class="skills__name">HTML5</span>
+                  </div>
+                  <div class="skills__bar skills__html"></div>
+                    <div>
+                      <span class="skills__percentage">95%</span>
+                    </div>
+                  </div>
+                  <div class="skills__data" data-aos="zoom-in-right" data-aos-duration="2500">
+                    <div class="skills__names">
+                      <i class='bx bxl-css3 skills__icon'></i>
+                      <span class="skills__name">CSS3</span>
+                    </div>
+                    <div class="skills__bar skills__css"></div>
+                    <div>
+                      <span class="skills__percentage">85%</span>
+                    </div>
+                  </div>
+                  <div class="skills__data" data-aos="zoom-in-right" data-aos-duration="3000">
+                    <div class="skills__names">
+                      <i class='bx bxl-javascript skills__icon' ></i>
+                      <span class="skills__name">JAVASCRIPT</span>
+                    </div>
+                    <div class="skills__bar skills__js"></div>
+                    <div>
+                      <span class="skills__percentage">10%</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </section>
+        <!-- Quarta Divisão Cards -->
+        <div id="projetos">
+          <h1 class="projetcstitle" data-aos="fade-right"  data-aos-offset="200"
+          data-aos-easing="ease-in-sine" data-aos-duration="1000">Projetos</h1>
+          <div class="grid cards" data-aos="fade-down-right" data-aos-duration="1500">
+            <div class="card g-col-6">
+              <img src="imgs/imagem1.png" class="card-img-top" alt="imagem sobre o projeto">
+              <div class="card-body">
+                <p class="card-text">Esse projeto foi através de um curso online, onde faziamos um site baseado no site da SpaceX</p>
+                <a href="https://serene-semifreddo-f68ce6.netlify.app/" target="_blank" class="btn btn-danger">Veja o projeto</a>
+              </div>
+            </div>
+            <div class="card g-col-6">
+              <img src="imgs/imagem2.jpg" class="card-img-top" alt="imagem sobre o projeto">
+              <div class="card-body">
+                <p class="card-text">Nesse Projeto temos um site exemplo para fotógrafos profissionais</p>
+                <a href="https://katianahanisch.github.io/Site-2/" target="_blank" class="btn btn-danger">Veja o projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Quinta Parte -->
+      <div class="container-temp-title d-flex justify-content-center py-5">
+        <h1>Utilizando API para consultar Temperatura</h1>
+      </div>
+      <div class="container-fluid p-0 container-sm d-flex justify-content-center">
+        <div class="card text-center" style="width: 20rem;"data-aos="zoom-in-right" data-aos-duration="2000">
+          <div class="card-header bg-white text-dark font-weight-bold">
+            TEMPO E TEMPERATURA
+          </div>
+          <div class="card-body">
+            <div class="city">Cidade Exemplo, BR</div>
+            <div class="date">Segunda, 27 Junho 2022</div>
+            <div class="container-img">
+              <img src="./icons/unknown.png">
+            </div>
+            <div class="container-temp">
+              <div>22</div>
+              <span>°c</span>
+            </div>
+            <div class="weather py-1">Nublado</div>
+          </div>
+          <div class="card-footer bg-white">
+            <div class="input-group ">
+              <input type="text" class="form-control bg-light" placeholder="nome de uma capital brasileira" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-warning text-dark" type="button" id="button-addon2">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="#home">KatianaHanisch &copy;2022</a>
+    </footer>
+    <!-- Lib Text Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+</body>
+</html>
